@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> iFurnish | Supervisor Login </title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Panorama — A-Frame">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<style >
+  
+  .margin_up
+  {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  html, body 
+  {
+    height: 100%;
+    width: 100%;
+    font-family:Palatino Linotype;
+  }
+
+  
+</style>
+ </head>
+ <body>
+
+
+
+ <nav>
+    <div class="nav-wrapper blue z-depth-0">
+      <a href="#" class="brand-logo hide-on-med-and-down" >iFurnish | Supervisor Login</a>
+      <a href="#" class="brand-logo hide-on-large-only" >iFurnish </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="https://www.yourwebsite.com/" target="_blank">Visit Our Website</a></li>
+      </ul>
+    </div>
+ </nav>
+
+
+
+ <div class="row  margin_up">
+  <div class="col  card l4 center-align push-l4 push-s1 push-m3 s10 m6 ">
+    <div class="row "><h4 class="center-align">Supervisor Login</h4></div>
+    <div class="center-align">
+    <form method="post" action="supervisor_login_check.php">
+      <div class="row">
+        <div class="col"><i class="material-icons medium">account_circle</i></div>
+        <div class="col l9 m8"><input type="email" id="email" name="email" placeholder="Email" required="true"></div>
+      </div>
+    </div>
+    <div class="center-align">
+      <div class="row">
+        <div class="col "><i class="material-icons medium">security</i></div>
+        <div class="col l9 m8"><input type="password" id="password" name="password" placeholder="Password" required="true"></div>
+      </div>
+    </div>
+    <div class="center-align">
+      <button class=" btn wave-blue blue darken-2" onclick="SubmitFormData();">Submit</button>
+    </div>  
+    </form>
+    <div>
+      <p id="wrong_password" class="center-align white-text">Invalid Login</p>
+    </div>
+    <div>
+      <p class="center-align">Forgot Password? Mail us on : panel@ifurnish.in</p>
+    </div>
+  </div>
+</div>
+ 
+ </body>  
+ </html> 
