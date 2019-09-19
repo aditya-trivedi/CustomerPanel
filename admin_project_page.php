@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title> iFurnish | Project Page </title>
+  <title> Project | Project Page </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Panorama — A-Frame">
@@ -54,8 +54,8 @@
 
  <nav>
     <div class="nav-wrapper blue z-depth-0">
-      <a href="#" class="brand-logo hide-on-med-and-down" >iFurnish |  Project Page</a>
-      <a href="#" class="brand-logo hide-on-large-only" >iFurnish </a>
+      <a href="#" class="brand-logo hide-on-med-and-down" >Project |  Project Page</a>
+      <a href="#" class="brand-logo hide-on-large-only" >Project </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://www.yourwebsite.com/" target="_blank">Visit Our Website</a></li>
       </ul>

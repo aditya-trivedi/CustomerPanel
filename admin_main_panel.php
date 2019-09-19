@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
- 	<title> iFurnish | Supervisor Panel </title>
+ 	<title> Project | Supervisor Panel </title>
  	<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Panorama — A-Frame">
@@ -28,8 +28,8 @@
 
  <nav>
     <div class="nav-wrapper blue darken-3">
-      <a href="#" class="brand-logo hide-on-med-and-down" >iFurnish | Admin Panel</a>
-        <a href="#" class="brand-logo" >iFurnish</a>
+      <a href="#" class="brand-logo hide-on-med-and-down" >Project | Admin Panel</a>
+        <a href="#" class="brand-logo" >Project</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://www.yourwebsite.com/" target="_blank">Visit Our Website</a></li>
       </ul>

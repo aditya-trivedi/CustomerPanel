@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title> iFurnish | Add Admin </title>
+  <title> Project | Add Admin </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Panorama — A-Frame">
@@ -34,8 +34,8 @@
 
  <nav>
     <div class="nav-wrapper blue z-depth-0">
-      <a href="#" class="brand-logo hide-on-med-and-down" >iFurnish | Add Admin</a>
-      <a href="#" class="brand-logo hide-on-large-only" >iFurnish </a>
+      <a href="#" class="brand-logo hide-on-med-and-down" >Project | Add Admin</a>
+      <a href="#" class="brand-logo hide-on-large-only" >Project </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://www.yourwebsite.com/" target="_blank">Visit Our Website</a></li>
       </ul>
@@ -77,7 +77,7 @@
     </div>  
   </form> 
     <div>
-      <p class="center-align white-text">Forgot Password? Mail us on : panel@ifurnish.in</p>
+      <p class="center-align white-text">Forgot Password? Mail us on : panel@Project.in</p>
     </div>
   </div>
 </div>
@@ -119,7 +119,7 @@ mysqli_close($conn);
  <footer class = "page-footer blue l12">
          <div class = "row">
             <div class = "col s12 m6 l6">
-               <h5 class = "white-text">iFurnish</h5>
+               <h5 class = "white-text">Project</h5>
             </div>
 
             <div class = "col right">
